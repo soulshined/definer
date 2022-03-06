@@ -1,6 +1,6 @@
 {
   "name": "node-definer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dictionaryapi.com proxy. Make requests to dictionaryapi.com to define words using their collegiate api, and get synonyms/antonyms with their thesaurus api",
   "main": "definer.js",
   "bin": "cli/bin/definer",
