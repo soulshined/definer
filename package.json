@@ -1,0 +1,35 @@
+{
+  "name": "node-definer",
+  "version": "1.0.0",
+  "description": "A dictionaryapi.com proxy. Make requests to dictionaryapi.com to define words using their collegiate api, and get synonyms/antonyms with their thesaurus api",
+  "main": "definer.js",
+  "bin": "cli/bin/definer",
+  "types": "definer.d.ts",
+  "scripts": { },
+  "keywords": [
+    "dictionary",
+    "cli",
+    "dictionary api",
+    "define",
+    "websters",
+    "thesaurus",
+    "synonyms",
+    "antonyms"
+  ],
+  "author": "David Freer",
+  "engines": {
+    "node": ">=12.18.3"
+  },
+  "license": "MIT",
+  "repository": {
+      "url": "https://github.com/soulshined/definer"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "inquirer": "^8.2.0",
+    "js-logger": "^1.6.1",
+    "minimist": "^1.2.5",
+    "open": "^8.4.0",
+    "sqlite3": "^4.2.0"
+  }
+}

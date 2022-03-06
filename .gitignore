@@ -1,0 +1,4 @@
+*.todo
+.vscode
+*.db
+node_modules
